@@ -42,5 +42,4 @@ int main(void) {
     printf("%d", decimal);
 
     return 0;
-
 }
