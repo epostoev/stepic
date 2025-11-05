@@ -4,9 +4,9 @@ int deleteNulSimbyl(char *str, int len){
         if (len > 0 && str[len - 1] == '\n'){
         str[len - 1] = '\0';
         len--;
-        return len;
     }
-} 
+    return len;
+}
 
 void printStringInfo(char* str, int len){
     printf("\n==========Analyze stroki=========\n");
