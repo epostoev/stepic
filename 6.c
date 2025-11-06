@@ -4,10 +4,14 @@ int main(void) {
     char str_1[14] = {};
     char str_2[14] = {};
 
+    
     printf("Введите первую строку:\n");
+    // scanf("%s", str_1[14]);
     fgets(str_1, sizeof(str_1), stdin);
     printf("Введите вторую строку:\n");
+    // scanf("%s", str_2[14]);
     fgets(str_2, sizeof(str_2), stdin);
+
 
     // Удаляем символ переноса строки
     int len_str1 = strlen(str_1);
